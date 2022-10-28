@@ -2,16 +2,13 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
     
         """ METHOD - 1 """
-        dict={}
-        for i in range(0,len(nums)):
-            value=nums[i]
-            diff=target-value
-            if value not in dict:
-                dict[diff]=i
-            else:
-                curr_index=i
-                prev_index=dict[value]
-                return [prev_index,curr_index]
+        prev = {}
+        for i, v in enumerate(nums):
+            remaining = target - nums[i]
+            if remaining in prev:
+                return [i, prev[remaining]]
+            
+            prev[v] = i
     
         """ METHOD - 2 """
         for i in range(len(nums)-1):

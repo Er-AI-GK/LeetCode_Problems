@@ -1,0 +1,12 @@
+﻿Outlook,Temperature,Humidity,Wind,Target
+sunny,cool,high,weak,yes
+sunny ,hot,normal,strong ,no
+overcast,mild,high,strong ,yes
+rain ,cool,high,strong ,yes
+sunny ,hot,normal,weak,no
+rain ,mild,high,weak,yes
+overcast,cool,normal,strong ,no
+sunny,hot,high,strong ,yes
+rain ,cool,normal,weak,no
+overcast,mild,normal,strong ,yes
+rain ,hot,high,weak,yes

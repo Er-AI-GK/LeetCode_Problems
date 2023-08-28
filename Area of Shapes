@@ -1,0 +1,131 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "mount_file_id": "11aFm_DjRGLoy5n_RH6tCEu_DJegVZ7UZ",
+      "authorship_tag": "ABX9TyOYmU7ZhgTqdlzwepGhv1jt",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Er-AI-GK/Leet_code/blob/main/Area%20of%20Shapes\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "S0bcDegrSUxk"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#**Finding Area of Shapes || Python Program**\n",
+        "\n",
+        "---\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "9xdwe0xfVtFL"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "c0wSEDgMWB-s"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Area of Triangle**"
+      ],
+      "metadata": {
+        "id": "kt4ruLMQTfM-"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "9dc46255-87e3-4d61-97c7-e21b0fff89e8",
+        "id": "bUBYs6vuVpFH"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Area of Triangle :  7.5\n"
+          ]
+        }
+      ],
+      "source": [
+        "base = 5\n",
+        "height = 3\n",
+        "area = (base*height)/2\n",
+        "\n",
+        "print(\"Area of Triangle : \",area)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Area of Rectangle**"
+      ],
+      "metadata": {
+        "id": "AVMH0Ne-TtoP"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "length = 10\n",
+        "width  = 2\n",
+        "area = (length*width)\n",
+        "\n",
+        "print(\"Area of Rectaange : \",area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "et6Yu67sU4MY",
+        "outputId": "1a190865-ee2a-47a8-be45-a720bd13b929"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Area of Rectaange :  20\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
